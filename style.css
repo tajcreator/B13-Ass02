@@ -688,7 +688,7 @@
 .log {
       font-size: 74px;
       font-weight: 800;
-      background: linear-gradient(135deg, #e100ff, #ff00a8);
+      background: linear-gradient(135deg, #ff9d00, #ae00ff, #ff00a8);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
