@@ -43,15 +43,15 @@
 
 /* Logo */
 .logo {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 800;
-  background: linear-gradient(135deg, #e100ff, #ff00a8);
+  background: linear-gradient(135deg, #ffcc00, #ff00a8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .logo1 {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 800;
   color: #fff;
 }
@@ -91,7 +91,7 @@
 
 /* Subscribe Button */
 .subscribe-btn {
-  background: linear-gradient(135deg, #e100ff, #ff00a8);
+  background: linear-gradient(135deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
   color: #fff;
   padding: 10px 24px;
   border-radius: 25px;
