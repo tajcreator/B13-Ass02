@@ -670,7 +670,83 @@
       font-size: 14px;
       color: rgba(255, 255, 255, 0.5);
     }
+     /* icone */
+    .spotify-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;         
+  text-decoration: none;
+  color: #fff;     
+  font-weight: 500;
+}
+
+.spotify-link img {
+  width: 20px;      
+  height: auto;
+}
+
+.log {
+      font-size: 74px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #e100ff, #ff00a8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+     .logo2 {
+      font-size: 74px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #ffffff, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
     
+    /* Mobile Responsive */
+    @media (max-width: 992px) {
+      .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(42, 8, 69, 0.98);
+        flex-direction: column;
+        padding: 20px;
+        gap: 1rem;
+        display: none;
+      }
+      
+      .nav-menu.active {
+        display: flex;
+      }
+      
+      .hamburger {
+        display: flex;
+      }
+      
+      .subscribe-btn-desktop {
+        display: none;
+      }
+      
+      .host-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      
+      .episodes-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .why-card1, .why-card2, .why-card3, .why-card4, .why-card5 {
+        grid-column: 1;
+        grid-row: auto;
+      }
+    }
+
     @media (max-width: 576px) {
       .banner h1 {
         font-size: 28px;
